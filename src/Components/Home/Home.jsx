@@ -172,7 +172,7 @@ export default function Home() {
         <li>
         <div className="ml-36 hover:shadow-xl hover:cursor-pointer relative h-[300px] w-[300px] rounded-xl">
           <img
-          src='src\assets\stat_3_38dp_5F6368_FILL0_wght400_GRAD0_opsz40.png'
+          src='https://manzeil.com/wp-content/uploads/2020/10/t-shirt.png'
           alt='Shirt'
           className='size-36  '
           />

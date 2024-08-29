@@ -99,7 +99,7 @@ export default function Header() {
                                 >
                                  <img
                                  className='h-5'
-                                 src="src\assets\shopping-cart.png" alt="Cart Pic" />   
+                                 src="src\assets\shopping_cart_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="Cart Pic" />   
                                 </NavLink>
                             </li>
                             <li>
