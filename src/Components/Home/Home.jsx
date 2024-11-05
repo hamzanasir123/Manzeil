@@ -15,38 +15,38 @@ export default function Home() {
         <div>
             <ul className='flex flex-col mb-28 font-medium lg:flex-row lg:space-x-8 lg:mt-0 gap-32 '>
                 <li className='ml-14'>
-                <img className="size-10 mt-5 ml-16" 
+                <img className="size-10 mt-5 sm:ml-16 ml-32" 
                 src="https://manzeil.com/wp-content/uploads/2020/10/shipping_01.png" 
                 alt="image2" />
-                    <h3 className='font-bold ml-8 w-auto'>Shipping Perks</h3>
-                    <h6 className=' ml-10 font-mono'>Coming Soon</h6>
+                    <h3 className='font-bold sm:ml-8 ml-24 w-auto'>Shipping Perks</h3>
+                    <h6 className=' sm:ml-10 ml-24 font-mono'>Coming Soon</h6>
                 </li>
                 <li>
-                <img className="size-10 mt-5 ml-16" 
+                <img className="size-10 mt-5 sm:ml-16 ml-44" 
                 src="https://manzeil.com/wp-content/uploads/2020/10/money-bac-2.png" 
                 alt="image2" />
-                    <h3 className='font-bold ml-0 w-auto'>Money Back Guarantee</h3>
-                    <h6 className=' ml-10 font-mono'>Coming Soon</h6>
+                    <h3 className='font-bold sm:ml-0 ml-28 w-auto'>Money Back Guarantee</h3>
+                    <h6 className=' sm:ml-10 ml-36 font-mono'>Coming Soon</h6>
                 </li>
                 <li>
-                <img className="size-10 mt-5 ml-16" 
+                <img className="size-10 mt-5 sm:ml-16 ml-48" 
                 src="https://manzeil.com/wp-content/uploads/2020/10/support.png" 
                 alt="image2" />
-                    <h3 className='font-bold ml-8 w-auto'>Customer Service</h3>
-                    <h6 className=' ml-12 font-mono'>Coming Soon</h6>
+                    <h3 className='font-bold sm:ml-8 ml-36 w-auto'>Customer Service</h3>
+                    <h6 className=' sm:ml-12 ml-40 font-mono'>Coming Soon</h6>
                 </li>
                 <li>
-                <img className="size-10 mt-5 ml-16" 
+                <img className="size-10 mt-5 sm:ml-16 ml-48" 
                 src="https://manzeil.com/wp-content/uploads/2020/10/non-toxic.png" 
                 alt="image2" />
-                    <h3 className='font-bold ml-0 w-auto'>Nontoxic Printmaking</h3>
-                    <h6 className=' ml-10 font-mono'>Coming Soon</h6>
+                    <h3 className='font-bold sm:ml-0 ml-32 w-auto'>Nontoxic Printmaking</h3>
+                    <h6 className=' sm:ml-10 ml-40 font-mono'>Coming Soon</h6>
                 </li>
             </ul>
         </div>
-        <ul className='flex'>
+        <ul className='sm:flex'>
             <li>
-        <div className="ml-16 mb-5 relative h-[400px] w-[400px] rounded-xl overflow-hidden shadow-lg transform transition-transform hover:-translate-y-2">
+        <div className="sm:ml-16  mb-5 relative sm:h-[400px] w-[400px] rounded-xl overflow-hidden shadow-lg transform transition-transform hover:-translate-y-2">
       <img
         src="https://manzeil.com/wp-content/uploads/2024/08/Eua-de-Perfume-4.png"
         alt="Shirts"
@@ -62,7 +62,7 @@ export default function Home() {
     </div>
     </li>
     <li>
-        <div className="ml-5 relative h-[400px] w-[400px] rounded-xl overflow-hidden shadow-lg transform transition-transform hover:-translate-y-2">
+        <div className="sm:ml-5 mb-5 relative sm:h-[400px] w-[400px] rounded-xl overflow-hidden shadow-lg transform transition-transform hover:-translate-y-2">
       <img
         src="https://manzeil.com/wp-content/uploads/2024/08/Eua-de-Perfume-1.png"
         alt="Mugs"
@@ -78,7 +78,7 @@ export default function Home() {
     </div>
     </li>
     <li>
-        <div className="ml-5 relative h-[400px] w-[400px] rounded-xl overflow-hidden shadow-lg transform transition-transform hover:-translate-y-2">
+        <div className="sm:ml-5 mb-5 relative sm:h-[400px] w-[400px] rounded-xl overflow-hidden shadow-lg transform transition-transform hover:-translate-y-2">
       <img
         src="https://manzeil.com/wp-content/uploads/2024/08/Eua-de-Perfume.png"
         alt="Shirts"
@@ -94,9 +94,9 @@ export default function Home() {
     </div>
     </li>
     </ul>
-    <ul className='flex'>
+    <ul className='sm:flex'>
     <li>
-        <div className="ml-16 relative h-[400px] w-[400px] rounded-xl overflow-hidden shadow-lg transform transition-transform hover:-translate-y-2">
+        <div className="sm:ml-16 mb-5 relative sm:h-[400px] w-[400px] rounded-xl overflow-hidden shadow-lg transform transition-transform hover:-translate-y-2">
       <img
         src="https://manzeil.com/wp-content/uploads/2020/10/badges.jpg"
         alt="Shirts"
@@ -112,7 +112,7 @@ export default function Home() {
     </div>
     </li>
     <li>
-        <div className="ml-5 relative h-[400px] w-[400px] rounded-xl overflow-hidden shadow-lg transform transition-transform hover:-translate-y-2">
+        <div className="sm:ml-5 mb-5 relative sm:h-[400px] w-[400px] rounded-xl overflow-hidden shadow-lg transform transition-transform hover:-translate-y-2">
       <img
         src="https://manzeil.com/wp-content/uploads/2020/10/hoodie.jpg"
         alt="Shirts"
@@ -128,7 +128,7 @@ export default function Home() {
     </div>
     </li>
     <li>
-        <div className="ml-5 relative h-[400px] w-[400px] rounded-xl overflow-hidden shadow-lg transform transition-transform hover:-translate-y-2">
+        <div className="sm:ml-5 mb-5 relative sm:h-[400px] w-[400px] rounded-xl overflow-hidden shadow-lg transform transition-transform hover:-translate-y-2">
       <img
         src="https://manzeil.com/wp-content/uploads/2020/10/cases.jpg"
         alt="Shirts"
@@ -149,7 +149,7 @@ export default function Home() {
       className = "flex w-full h-96 mt-10 bg-slate-100"
       >
         <h1
-        className=' font-black text-7xl ml-16'
+        className=' font-black sm:text-7xl text-xl sm:ml-16 ml-5'
         >Why<br/>Choose<br/>Us
         </h1>
       <ul className='flex ml-10'>
@@ -158,9 +158,8 @@ export default function Home() {
           <img
           src='https://manzeil.com/wp-content/uploads/2020/10/t-shirt.png'
           alt='Shirt'
-          className='size-36  '
+          className='size-36'
           />
-      {/* <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div> */}
       <div className="absolute bottom-4 left-4 text-left">
         <h1 className="text-2xl font-black text-gray-500">No Minimum Orders</h1>
         <p className="mt-2 text-sm text-black">
@@ -250,8 +249,8 @@ export default function Home() {
       </div>
 
 
-    <ul className='flex ml-16'>
-      <li className='flex ml-16 mt-14'>
+    <ul className='sm:flex sm:ml-16'>
+      <li className='sm:flex ml-16 mt-14'>
       <div
   class="relative grid h-[30rem]  max-w-[20rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
   <div
@@ -393,8 +392,8 @@ export default function Home() {
 </div>  
       </li>
       </ul>
-      <ul className='flex ml-16'>
-      <li className='flex ml-16 mt-14'>
+      <ul className='sm:flex sm:ml-16'>
+      <li className='sm:flex ml-16 mt-14'>
       <div
   class="relative grid h-[30rem]  max-w-[20rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
   <div
@@ -536,10 +535,10 @@ export default function Home() {
 </div>  
       </li>
       </ul>
-      <ul className='flex'>
-        <li className='flex'>
+      <ul className='sm:flex'>
+        <li className='sm:flex'>
 <div
-  class="ml-52 flex w-96 flex-col mt-32 rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+  class="sm:ml-52 flex w-96 flex-col mt-32 rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
 >
   <div
     class=" relative mx-4 -mt-6 mb-4 grid h-28 place-items-center overflow-hidden rounded-xl bg-gradient-to-tr from-cyan-600 to-cyan-400 bg-clip-border text-white shadow-lg shadow-cyan-500/40"
@@ -635,7 +634,7 @@ export default function Home() {
   </div>
 </div>
 <div
-  class="ml-32 flex w-96 flex-col mt-32 rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+  class="sm:ml-32 flex w-96 flex-col mt-32 rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
 >
   <div
     class=" relative mx-4 -mt-6 mb-4 grid h-28 place-items-center overflow-hidden rounded-xl bg-gradient-to-tr from-cyan-600 to-cyan-400 bg-clip-border text-white shadow-lg shadow-cyan-500/40"
